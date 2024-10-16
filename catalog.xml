@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8">
- <tracks>
+<!-- <?xml version="1.0" encoding="UTF-8"> -->
+<tracks>
     <track title = "Instagram">
         <from>Single</from>
         <by>DEAN</by>
         <release_date>December 26, 2017</release_date>
         <length>4:15</length>
-        <genre>R&B, Soul</genre>
+        <genre>R&amp;B, Soul</genre>
         <image>images/Instagram.jpg</image>
     </track>
     <track title = "What2do">
@@ -13,7 +13,7 @@
         <by>DEAN</by>
         <release_date>June 29, 2016</release_date>
         <length>3:44</length>
-        <genre>R&B, Soul</genre>
+        <genre>R&amp;B, Soul</genre>
         <image>images/What2do.jpg</image>
     </track>
     <track title = "Dayfly">
@@ -21,7 +21,7 @@
         <by>DEAN</by>
         <release_date>November 8, 2018</release_date>
         <length>3:27</length>
-        <genre>R&B</genre>
+        <genre>R&amp;B</genre>
         <image>images/Dayfly.jpg</image>
     </track>
     <track title = "Put My Hands On You">
@@ -30,7 +30,7 @@
         <by>DEAN</by>
         <release_date>September 18, 2015</release_date>
         <length>3:29</length>
-        <genre>R&B, Soul</genre>
+        <genre>R&amp;B, Soul</genre>
         <image>images/PutMyHandsOnYou.jpg</image>
     </track>
     <track title = "The Unknown Guest">
@@ -39,7 +39,7 @@
         <by>DEAN</by>
         <release_date>2017</release_date>
         <length>1:56</length>
-        <genre>R&B</genre>
+        <genre>R&amp;B</genre>
         <image>images/TheUnknownGuest.jpg</image>
     </track>
     <track title = "Heard Em Say">
@@ -64,7 +64,7 @@
         <by>Kanye West</by>
         <release_date>September 11, 2007</release_date>
         <length>2:47</length>
-        <genre>Hip hop, Electro, R&B</genre>
+        <genre>Hip hop, Electro, R&amp;B</genre>
         <image>images/Champion.jpg</image>
     </track>
     <track title = "Ghost Town">
@@ -89,7 +89,7 @@
         <by>Tyler, the Creator</by>
         <release_date>June 25, 2021</release_date>
         <length>9:48</length>
-        <genre>Synth-pop, R&B, reggae</genre>
+        <genre>Synth-pop, R&amp;B, reggae</genre>
         <image>images/SWEET-ITHOUGHTYOUWANTEDTODANCE.jpg</image>
     </track>
     <track title = "Whoville">
@@ -170,7 +170,7 @@
         <by>Childish Gambino</by>
         <release_date>19 July 2024</release_date>
         <length>3:48</length>
-        <genre>R&B</genre>
+        <genre>R&amp;B</genre>
         <image>images/StepsBeach.jpg</image>
     </track>
     <track title = "Stand Tall">
@@ -178,7 +178,7 @@
         <by>Childish Gambino</by>
         <release_date>December 2, 2016</release_date>
         <length>6:10</length>
-        <genre>R&B</genre>
+        <genre>R&amp;B</genre>
         <image>images/StandTall.jpg</image>
     </track>
     <track title = "Sober">
@@ -186,7 +186,7 @@
         <by>Childish Gambino</by>
         <release_date>September 14, 2014</release_date>
         <length>4:12</length>
-        <genre>Soul,Pop,R&B</genre>
+        <genre>Soul,Pop,R&amp;B</genre>
         <image>images/Sober.jpg</image>
     </track>
     <track title = "Feels Like Summer">
@@ -194,7 +194,7 @@
         <by>Childish Gambino</by>
         <release_date>July 11, 2018</release_date>
         <length>4:57</length>
-        <genre>R&B</genre>
+        <genre>R&amp;B</genre>
         <image>images/FeelsLikeSummer.jpg</image>
     </track>
     <track title = "1. Pink Toes">
