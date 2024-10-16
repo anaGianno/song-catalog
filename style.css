@@ -2,7 +2,7 @@ body{
     margin: 0;
     background: rgb(105, 69, 52);
     height: 100%;
-    width: 100%;
+    width: 100vw;
     background-image: linear-gradient(rgb(112, 74, 56),rgb(82, 58, 46));
 }
 
@@ -31,9 +31,9 @@ body{
 .content{
     margin-left:30%;
     margin-right:30%;
-    height:69%;
+    height:100%;
     padding:1%;
-    /* background-color: rgb(110, 85, 72); */
+    background-color: rgb(110, 85, 72);
 }
 
 .grid-track{
