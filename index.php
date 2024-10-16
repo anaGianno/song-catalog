@@ -15,12 +15,42 @@
             <!-- <p class = "header-text">song catalog</p> -->
         </div>
         <div class = "content">
-            <div class = "grid-track">
-                <div class = "track"></div>
-                <div class = "track"></div>
-                <div class = "track"></div>
-            </div>
+            <form method='POST' name='form1'  action='details.php' autocomplete='off'>
+                <div class = "grid-track">
+                    <div class = "track"></div>
+                    <div class = "track"></div>
+                    <div class = "track"></div>
+                    <div class = "track"></div>
+                    <div class = "track"></div>
+                    <div class = "track"></div>
+                    <div class = "track"></div>
+                    <div class = "track"></div>
+                    <div class = "track"></div>
+                    <div class = "track"></div>
+                    <div class = "track"></div>
+                    <div class = "track"></div>
+                    <div class = "track"></div>
+                    <div class = "track"></div>
+                    <div class = "track"></div>
+                    <div class = "track"></div>
+                    <div class = "track"></div>
+                    <div class = "track"></div>
+                    <div class = "track"></div>
+                    <div class = "track"></div>
+                    <div class = "track"></div>
+                    <div class = "track"></div>
+                    <div class = "track"></div>
+                    <div class = "track"></div>
+                    <div class = "track"></div>
+                </div>
+                <input class ='buttonindex' type='submit' value='SUBMIT FORM'> 
+                <select name="sort" id="sort">
+                    <option value="1">Default</option>
+                    <option value="2">Alphabetical</option>
+                </select>
+            </form>
         </div>
+
         <?php
 
         ?>

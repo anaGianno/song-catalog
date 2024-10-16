@@ -11,7 +11,10 @@
         <link rel="stylesheet" href = "style.css">
     </head>
     <body>
-        
+        <div class = "header"></div>
+        <div class = "content">
+
+        </div>
         <?php
             
         ?>
