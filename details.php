@@ -11,18 +11,9 @@
         <link rel="stylesheet" href = "style.css">
     </head>
     <body>
-        <div class = "header">
-            <!-- <p class = "header-text">song catalog</p> -->
-        </div>
-        <div class = "content">
-            <div class = "grid-track">
-                <div class = "track"></div>
-                <div class = "track"></div>
-                <div class = "track"></div>
-            </div>
-        </div>
+        
         <?php
-
+            
         ?>
 
     </body>
