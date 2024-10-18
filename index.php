@@ -16,7 +16,7 @@
         </div>
         <div class = "content">
             <form method='POST' name='form1'  action='details.php' autocomplete='off'>
-                <div class = "grid-track">
+                <div class = "grid-input">
                     <?php
                         if(file_exists('catalog.xml')){
                             $tracks = simplexml_load_file('catalog.xml');

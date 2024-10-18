@@ -14,7 +14,7 @@
         <div class = "header">
             <p class = "header-text">Song Catalog</p>
         </div>
-        <div class = "content">
+        <div class = "content detail">
             <?php
                 $title = $_POST["title"];
 
@@ -22,16 +22,60 @@
                 $selectedTrack = $tracks->xpath("//track[@title='".$title."']");
                 foreach($selectedTrack as $track){
                     $att = $track->attributes();
-                    echo "<div>".$att['title']."</div><br>";
-                    echo "<div>".$track->from . "</div><br>";
-                    echo "<div>".$track->by. "</div><br>";
-                    echo "<div>".$track->release_date. "</div><br>";
-                    echo "<div>".$track->length. "</div><br>";
-                    echo "<div>".$track->genre. "</div><br>";
+                    echo "<div class = 'grid-track'>
+                            <div class = 'image-container'>
+                               <img src = ".$track->image." class = 'image-track'>
+                            </div>
+                            <div class = 'details-container'>
+                                <div class = 'grid-details'>
+                                    <div>
+                                        <label class = 'label-track'>Title</label>
+                                        <div class = 'track-field'>".$att['title']."</div><br>
+                                    </div>
+                                    <div>
+                                        <label class = 'label-track'>From</label>
+                                        <div class = 'track-field'>".$track->from . "</div><br>
+                                    </div>
+                                    <div>
+                                        <label class = 'label-track'>By</label>
+                                        <div class = 'track-field'>".$track->by. "</div><br>
+                                    </div>
+                                    <div>
+                                        <label class = 'label-track'>Release Date</label>
+                                        <div class = 'track-field'>".$track->release_date. "</div><br>
+                                    </div>
+                                    <div>
+                                        <label class = 'label-track'>Length</label>
+                                        <div class = 'track-field'>".$track->length. "</div><br>
+                                    </div>
+                                    <div>
+                                        <label class = 'label-track'>Genre</label>
+                                        <div class = 'track-field'>".$track->genre. "</div><br>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>";
+                    
+                    // echo "<label class = 'label-track'>Title</label>";
+                    // echo "<div class = 'track-field'>".$att['title']."</div><br>";
+                    // echo "<label class = 'label-track'>From</label>";
+                    // echo "<div class = 'track-field'>".$track->from . "</div><br>";
+                    // echo "<label class = 'label-track'>By</label>";
+                    // echo "<div class = 'track-field'>".$track->by. "</div><br>";
+                    // echo "<label class = 'label-track'>Release Date</label>";
+                    // echo "<div class = 'track-field'>".$track->release_date. "</div><br>";
+                    // echo "<label class = 'label-track'>Length</label>";
+                    // echo "<div class = 'track-field'>".$track->length. "</div><br>";
+                    // echo "<label class = 'label-track'>Genre</label>";
+                    // echo "<div class = 'track-field'>".$track->genre. "</div><br>";
+
                 }
 
             ?>
         </div>
+        <form action='index.php'>
+            <input class ='back' type='submit' value='Back'></input>
+        </form>
 
 
     </body>
