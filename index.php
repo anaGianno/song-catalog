@@ -25,22 +25,24 @@
                         else{
                             exit('Failed to open test.xml');
                         }
-
+                        $i = 0;
                         foreach($tracks->children() as $track){
                             $att = $track->attributes();
-                            echo "<input class = 'track' type='submit' name='title' value='".$att['title']."'></input>\n";
+                            
+                            echo "<input class = 'track' type='submit' id= '".$i."' name='title' value='".$att['title']."'></input>\n";
+                            $i++;
                         }
                     ?>
                 </div>
             
-                <select class ="sort" name="sort" id="sort">
-                    <option value="1">Default</option>
-                    <option value="2">Alphabetical</option>
-                </select>
+
             </form>
         </div>
 
+        <button class = 'custom-button main' onclick = "sortAlphabetical()">Sort by Alphabetical</button> 
+        <button class = 'custom-button main' onclick = "sortDefault()">Sort by Artist (default)</button> 
 
 
+        <script src = "script.js"></script>
     </body>
 </html>

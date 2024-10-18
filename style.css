@@ -7,6 +7,10 @@ body{
 
 }
 
+div{
+   
+}
+
 
 .header{
     width:100%;
@@ -122,6 +126,8 @@ body{
     display:inline-block;
 }
 .image-track{
+    max-height: 22.5rem;
+    max-width: 22.5rem;
     height:100%;
     weight:100%;
     display:inline-block;
@@ -138,28 +144,34 @@ body{
 }
 .grid-details{
     display:grid;
-    grid-template-columns:10rem 15rem;
+    grid-template-columns:10rem 10rem;
     height: 100%;
     width:100%;
     row-gap: 2rem;
+}
+
+.detail-container{
+    word-wrap: break-word;
+    overflow: hidden;    
 }
 
 .label-track{
     font-family: "Onest", sans-serif;
     color: rgb(231, 216, 174);
     font-size:25px;
+    user-select: none;
 }
 
 .track-field{
     font-family: "Onest", sans-serif;
     color: rgb(229, 206, 142);
     font-size:15px;
+
+    user-select: none;
 }
 
-.back{
-    margin-left:27.5%;
+.custom-button{
     margin-top: 0.5rem;
-    margin-bottom: 14%;
     border-width:1px;
     border-style:solid;
     border-radius: 5px;
@@ -171,8 +183,19 @@ body{
     transition: color 0.15s;
 }
 
-.back:hover{
+.custom-button:hover{
     color: rgb(253, 245, 224);
     cursor:pointer;
     user-select: none;
+}
+
+.back{
+    margin-bottom: 14%;
+    margin-left:27.5%;
+}
+
+.main{
+    margin-left:28.5%;
+    margin-right:-1.25%;
+    margin-bottom:1%;
 }
