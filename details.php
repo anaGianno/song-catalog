@@ -16,11 +16,13 @@
         </div>
         <div class = "content detail">
             <?php
+                //get title from index.php
                 $title = $_POST["title"];
-
                 $tracks = simplexml_load_file("catalog.xml");
+                //get chosen track using title attribute
                 $selectedTrack = $tracks->xpath("//track[@title='".$title."']");
                 foreach($selectedTrack as $track){
+                    //display details and image of chosen track
                     $att = $track->attributes();
                     echo "<div class = 'grid-track'>
                             <div class = 'image-container'>

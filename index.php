@@ -18,14 +18,15 @@
             <form method='POST' name='form1'  action='details.php' autocomplete='off'>
                 <div class = "grid-input">
                     <?php
+                        // get catalog.xml file
                         if(file_exists('catalog.xml')){
                             $tracks = simplexml_load_file('catalog.xml');
-                            // var_dump($tracks);
                         }
                         else{
                             exit('Failed to open test.xml');
                         }
                         $i = 0;
+                        // display all tracks
                         foreach($tracks->children() as $track){
                             $att = $track->attributes();
                             
@@ -34,15 +35,11 @@
                         }
                     ?>
                 </div>
-            
-
             </form>
         </div>
-
+        <!-- Sorting buttons -->
         <button class = 'custom-button main' onclick = "sortAlphabetical()">Sort by Alphabetical</button> 
         <button class = 'custom-button main' onclick = "sortDefault()">Sort by Artist (default)</button> 
-
-
         <script src = "script.js"></script>
     </body>
 </html>

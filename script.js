@@ -1,3 +1,4 @@
+//sort tracks by alphabet by changing each inputs value
 function sortAlphabetical(){
     let titles = ["Instagram","What2do","Dayfly","Put My Hands On You", "The Unknown Guest",
         "Heard Em Say","Spaceship","Champion","Ghost Town","Life of the Party",
@@ -12,6 +13,7 @@ function sortAlphabetical(){
     }
 }
 
+//sort tracks by default by changing each inputs value
 function sortDefault(){
     let titles = ["Instagram","What2do","Dayfly","Put My Hands On You", "The Unknown Guest",
         "Heard Em Say","Spaceship","Champion","Ghost Town","Life of the Party",
